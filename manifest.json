@@ -1,0 +1,22 @@
+{
+  "name": "Calendario Interactivo OTs",
+  "organization": "Tráfico Compras",
+  "description": "Vista de calendario mensual con detalle emergente para eventos y OTs.",
+  "logoUrl": "https://raw.githubusercontent.com/googlelookerstudio/community-visualizations/main/assets/logo.png",
+  "companyUrl": "https://lookerstudio.google.com",
+  "supportUrl": "https://lookerstudio.google.com",
+  "privacyPolicyUrl": "https://lookerstudio.google.com",
+  "devMode": true,
+  "components": [
+    {
+      "id": "calendarioOTs",
+      "name": "Calendario de Proyectos",
+      "iconUrl": "https://raw.githubusercontent.com/googlelookerstudio/community-visualizations/main/assets/icon.png",
+      "description": "Visualización mensual estilo Google Calendar.",
+      "resource": {
+        "js": "gs://TU_BUCKET_AQUI/index.js",
+        "config": "gs://TU_BUCKET_AQUI/index.json"
+      }
+    }
+  ]
+}

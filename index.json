@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "id": "dimensionesCalendario",
+      "label": "Datos del Evento",
+      "elements": [
+        {
+          "id": "fechaInicio",
+          "label": "Fecha de Inicio (OBLIGATORIO)",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "tituloOT",
+          "label": "Nombre/Detalle de la OT",
+          "type": "DIMENSION",
+          "options": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "id": "detallesExtra",
+          "label": "Campos de Detalle (Inversión, Tasa, Fin, etc.)",
+          "type": "DIMENSION",
+          "options": {
+            "min": 0,
+            "max": 5
+          }
+        }
+      ]
+    }
+  ]
+}
