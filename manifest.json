@@ -14,8 +14,8 @@
       "iconUrl": "https://raw.githubusercontent.com/googlelookerstudio/community-visualizations/main/assets/icon.png",
       "description": "Visualización mensual estilo Google Calendar.",
       "resource": {
-        "js": "gs://TU_BUCKET_AQUI/index.js",
-        "config": "gs://TU_BUCKET_AQUI/index.json"
+        "js": "https://raw.githubusercontent.com/auxcompras1-dev/calendario-looker/main/index.js",
+        "config": "https://raw.githubusercontent.com/auxcompras1-dev/calendario-looker/main/index.json"
       }
     }
   ]
